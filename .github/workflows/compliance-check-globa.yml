@@ -21,3 +21,6 @@ jobs:
           name: ${{ github.workflow }}
           enforce: false
           enforce_admin: false
+
+      - name: Say Bye
+        run: echo "Bye!"
